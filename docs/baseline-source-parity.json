@@ -1,0 +1,86 @@
+{
+  "baselineVersion": "1.0.0",
+  "sourceFiles": 19,
+  "byteIdenticalSourceFiles": 19,
+  "sourceChanges": 0,
+  "packageMetadataChecks": 12,
+  "packageCreation": "Native dotnet pack succeeded; Foundation NuGet audit endpoint unavailable in sandbox, NU1900 warning observed.",
+  "libraries": [
+    {
+      "path": "shared/FactoryMES.Contracts/AlarmActions.cs",
+      "sha256": "1e3cc95dc4d66cd9e64485e68029430dbe9728afa22fb3ddb993d5757f0789ec"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/Alarms.cs",
+      "sha256": "f343ebfe977788a7481985efb1f57ccdacdcfbf8d211bb12f13e8a96c0b8a1d9"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/Analysis.cs",
+      "sha256": "99542b99d18b3410e3489733504d1478b64e111affc883d2c19503982df899a7"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/AutoProduction.cs",
+      "sha256": "dc1d108351a885b2389d44f7f9e193e4226391dc7f2184940031f4cab0bbfa31"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/Collection.cs",
+      "sha256": "ff742a26c7c83abe6f7650be27ef0884620818e5b1c3402ea901c0f976031a74"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/CollectionFormat.cs",
+      "sha256": "2d78810d410a7a99691b509dd56c6474cc69d93b70301125d908aa468f13e4a5"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/Deliveries.cs",
+      "sha256": "de2e23c61bb362bb2e4114af35fca296bfe7674e65b1ebb73b411c97518c8ef1"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/LocalDeliveries.cs",
+      "sha256": "e74a7e4c7da9389406850a7870c067a34bc696b7bae560d656a3f67007735a17"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/Maintenance.cs",
+      "sha256": "e8b701ac90a2ded1ab8bd8893fa00f5a40e1acb105986b40ddbc28fe2ee9d30d"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/MasterData.cs",
+      "sha256": "3990ecffc0a6480d30198d7387f177e0759fcf54b83a5f852a81cde48ed2eac5"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/ModbusFormat.cs",
+      "sha256": "3a51725730cc8866419cca0ab4f566590c4fac11929d0f1bd3e95abd7a7496ec"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/OrderLifecycle.cs",
+      "sha256": "3a5c43048c73579c8ffc86af65c8dc28fb97e8f48077582afd01a7d994a9c2ab"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/Orders.cs",
+      "sha256": "96110de2daf157aa4f832690657e5d2b9ad4a175cb35903da0a276b2bcc9242e"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/OutboxRetry.cs",
+      "sha256": "b5730872ec00e7bd4fbbeceb492429896a325739c383d8e61b8d4ff22cea88b9"
+    },
+    {
+      "path": "shared/FactoryMES.Contracts/Reporting.cs",
+      "sha256": "7726beb12104dced6abecc75ea5a5d99a67dc912892619e79e9b7d67d67583aa"
+    },
+    {
+      "path": "shared/FactoryMES.Foundation/CollectionProof.cs",
+      "sha256": "64d4c0ea2ecca7e2301a4549fb5b8ead0e57868e5067044e8f74cf552614eaf4"
+    },
+    {
+      "path": "shared/FactoryMES.Foundation/InternalClient.cs",
+      "sha256": "1238a2e3895fab2dfdb8b0708b6cece9227fbd9e1829c7caf214303160c0e739"
+    },
+    {
+      "path": "shared/FactoryMES.Foundation/ServiceFoundation.cs",
+      "sha256": "72c5b42a74bbdb68a4d1559d8949844e69dcfd2bdcfac839205df0872fa183fc"
+    },
+    {
+      "path": "shared/FactoryMES.Foundation/SessionCookies.cs",
+      "sha256": "1903e998c9bfa235eb284eda0e7960eb4c419b03777113e3ec2fd61997e13ca8"
+    }
+  ]
+}

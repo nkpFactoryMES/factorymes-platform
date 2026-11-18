@@ -1,0 +1,43 @@
+name: Publish immutable package release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Existing source tag version, without v
+        type: string
+        required: true
+      package:
+        description: Package to release
+        type: choice
+        required: true
+        default: All
+        options:
+          - All
+          - FactoryMES.Contracts
+          - FactoryMES.Foundation
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: v${{ inputs.version }}
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: global.json
+      - name: Build and publish new release only
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_VERSION: ${{ inputs.version }}
+          RELEASE_PACKAGE: ${{ inputs.package }}
+        run: >-
+          ./build/publish-release.ps1
+          -Version $env:RELEASE_VERSION
+          -Package $env:RELEASE_PACKAGE

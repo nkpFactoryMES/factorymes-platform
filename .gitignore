@@ -1,0 +1,16 @@
+**/bin/
+**/obj/
+artifacts/
+.packages/
+.env
+.env.*
+.secrets/
+.idea/
+.vs/
+*.user
+*.suo
+*.pfx
+*.p12
+*.pem
+*.key
+.nuget/

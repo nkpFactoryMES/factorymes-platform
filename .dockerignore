@@ -1,0 +1,9 @@
+.git/
+.nuget/
+artifacts/
+.packages/
+**/bin/
+**/obj/
+.secrets/
+.env
+.env.*
