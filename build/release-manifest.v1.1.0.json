@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "id": "FactoryMES.Contracts",
+      "version": "1.1.0",
+      "file": "FactoryMES.Contracts.1.1.0.nupkg",
+      "repo": "factorymes-platform",
+      "tag": "v1.1.0",
+      "sha256": "fc493282c06e956b9cf9714617320ac149baba9c7c0da72b4ca1f609ca8dc053"
+    }
+  ]
+}
